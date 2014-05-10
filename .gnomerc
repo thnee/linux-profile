@@ -1,1 +1,2 @@
 export WINDOW_MANAGER=/usr/local/bin/awesome-wm
+xcompmgr &
