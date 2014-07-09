@@ -10,6 +10,7 @@
 	br = branch
 	co = checkout
 	ci = commit
+	sh = stash
 	di = diff
 	dica = diff --cached
 	new = log --branches --not --remotes
