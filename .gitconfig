@@ -6,7 +6,8 @@
 	default = tracking
 
 [alias]
-	pu = pull
+	pl = pull
+	ps = push
 	st = status
 	br = branch
 	co = checkout
