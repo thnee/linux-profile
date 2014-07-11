@@ -47,6 +47,8 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+export DEFAULT_USER=""
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
