@@ -6,6 +6,7 @@
 	default = tracking
 
 [alias]
+	fe = fetch
 	pl = pull
 	ps = push
 	st = status
@@ -25,3 +26,4 @@
 [merge]
 	tool = p4merge
 	prompt = false
+
