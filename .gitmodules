@@ -10,3 +10,6 @@
 [submodule ".eso/screenFetch"]
 	path = .eso/screenFetch
 	url = git://github.com/KittyKatt/screenFetch.git
+[submodule ".urxvt/ext/urxvt-font-size"]
+	path = .urxvt/ext/urxvt-font-size
+	url = git@github.com:majutsushi/urxvt-font-size.git
