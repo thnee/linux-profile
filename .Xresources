@@ -1,18 +1,24 @@
 
-URxvt*saveLines: 12000
-URxvt*font: xft:Ubuntu Mono:pixelsize=13:antialias=true:hinting=true
-URxvt*boldFont: xft:Ubuntu Mono:bold:pixelsize=13:antialias=true:hinting=true
-URxvt*scrollBar: false
-URxvt*scrollTtyOutput: false
-URxvt*scrollWithBuffer: true
-URxvt*scrollTtyKeypress: true
-
+URxvt.loginShell: true
 URxvt.perl-ext-common: default.matcher
+
+! matcher settings for clickable urls
 URxvt.url-launcher: google-chrome
 URxvt.matcher.button: 1
 
-URxvt*loginShell: true
+! scrolling settings
+URxvt.saveLines: 12000
+URxvt.scrollBar: false
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
 
+! font settings
+URxvt.font: xft:Ubuntu Mono:pixelsize=13:antialias=true:hinting=true
+URxvt.boldFont: xft:Ubuntu Mono:bold:pixelsize=13:antialias=true:hinting=true
+
+! make cool color themes work properly
+URxvt.intensityStyles: false
 
 ! Base16 Eighties
 ! Scheme: Chris Kempson (http://chriskempson.com)
@@ -53,5 +59,3 @@ URxvt.color12:      base04
 URxvt.color13:      base06
 URxvt.color14:      base0F
 URxvt.color15:      base07
-
-URxvt*intensityStyles:      false
